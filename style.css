@@ -1,0 +1,117 @@
+#body{
+	background: -moz-linear-gradient(65deg, #F13F79, #FFC778); 
+	background: -webkit-linear-gradient(65deg, #F13F79, #FFC778); 
+	background: linear-gradient(25deg, #F13F79, #FFC778);
+	background-repeat: repeat;
+	background-attachment: fixed;
+  	min-height: 100vh;
+}
+
+.clear{
+	clear: both;
+}
+h2.login, p.login{
+	color: #fff;
+	text-align: center;
+}
+.logos{
+	width: 100%;
+	font-size: 52px;
+	color: #fff;
+	text-align: center;
+}
+.logos i{
+	margin: 10px auto;
+}
+
+#login input,#managerlogin input{
+	width: 100%;
+	border: 1px solid #cdcdcd;
+}
+
+.navbar.bg-light{
+	background-color: rgba(0,0,0,1) !important;
+	border: none;
+}
+.navbar-light .navbar-brand{
+	color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #fff !important;
+}
+
+#sidebarMenu{
+	background-color: rgba(255,255,255,0.7);
+	height: 100vh;
+	position: fixed;
+}
+#sideber ul{
+	margin: 0;
+	padding: 0;
+}
+#sideber li{
+	width: 100%;
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none!important;
+	line-height: 1.5;
+	padding: 10px auto;
+}
+
+.userphoto{
+	width: 100%;
+	margin: 20px auto;
+	text-align: center;
+}
+.userphoto img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+li.nav-item {
+	width: 100%;
+}
+
+/* manager page*/
+table.userTable{
+    background-color: #fff;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 1px;
+}
+img#output_imaget{
+	width: 150;
+	height: 150;
+	text-align: center;
+}
+#suggestions {
+	display: none;
+}
+
+#suggestions ul{
+	list-style: none;
+	margin: 0;
+	padding: 0 5px;
+}
+#suggestions li{
+	background-color: rgba(225,225,225,0.5);
+	padding: 0 10px;
+}
+#suggestions li:hover{
+	background-color: rgba(225,225,225,0.7);
+}
+
+@media screen and (max-width:767px) {
+.navbar{
+	clear: both;
+}
+.navbar-light .navbar-brand{
+	width: 60%;
+	margin-left: 50px;
+}
+#sidebarMenu{
+    height: auto;
+    position: unset;
+
+}
+}
